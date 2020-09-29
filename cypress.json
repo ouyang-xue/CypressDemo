@@ -1,0 +1,10 @@
+{
+  "baseUrl": "http://localhost:4200/",
+  "ignoreTestFiles": "**/*/examples/*",
+  "testFiles": "**/*.*",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/nfv-test-result[hash].xml",
+    "toConsole": true
+  }
+}
